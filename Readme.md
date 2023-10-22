@@ -7,19 +7,20 @@ These projects are designed to help you practice your JavaScript skills and expl
 
 1. **Calculator**
    - A basic calculator web application that can perform addition, subtraction, multiplication, and division.
-   - [Demo](https://calculator.jsurya860.repl.co) (Provide a link to a live demo if available)
+   - [Demo](https://calculator.jsurya860.repl.co)
 
 2. **Alarm Clock**
    - An analog clock that displays the current time using JavaScript and CSS.
-   - [Demo](https://alarm-clock.jsurya860.repl.co) (Provide a link to a live demo if available)
+   - [Demo](https://alarm-clock.jsurya860.repl.co) 
 
 3. **Weather App**
    - A weather application that allows users to check the current weather conditions for a specific location.
-   - [Demo](https://weahter-app.jsurya860.repl.co) (Provide a link to a live demo if available)
+   - [Demo](https://weahter-app.jsurya860.repl.co)
 
 4. **Random password generator**
    - ARandom password generator that allows users to generate random password for enhanced security.
-   - [Demo](https://random-password-generator.jsurya860.repl.co) (Provide a link to a live demo if available)
+   - [Demo](https://random-password-generator.jsurya860.repl.co)
+   - 
 ## Prerequisites
 
 Before you begin, ensure you have met the following requirements:
