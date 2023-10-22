@@ -1,0 +1,65 @@
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  text-align: center;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 0px;
+  margin:11px;
+  
+}
+
+.btn:hover {
+  background-color: #45a049;
+}
+
+.btn:active {
+  background-color: #3e8e41;
+}
+
+.btn:focus {
+  outline: none;
+  box-shadow: 0 0 5px #4CAF50;
+}
+
+#container{
+  display:flex;
+  margin-bottom:5px;
+  justify-content:center;
+  border:1px solid grey;
+  background-color: #d2c6c6;
+  border-radius:5px;
+  height:130px;
+  width:100%;
+}
+#strong{
+  justify-content: center;
+  text-align:center;
+  border:1px solid black;
+  border-radius: 5px;;
+margin:10px;
+} 
+
+#easy{
+  justify-content: center;
+  text-align:center;
+  border:1px solid black;
+  border-radius: 5px;;
+margin:10px;
+}
+
+#result{
+height:60px;
+  width: auto;
+  background-color:black;
+  color: white;
+  text-align:center;
+  justify-content:center;
+  font-size:28px;
+ 
+  padding:30px;
+}
