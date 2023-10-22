@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Positioning Example</title>
+  <style>
+    #myDiv {
+      position: absolute;
+      top: 50px;
+      left: 50px;
+      background-color: yellow;
+      padding: 10px;
+    }
+
+    .firstParagraph {
+      position: relative;
+      top: 20px;
+      font-weight: bold;
+    }
+
+    .secondParagraph {
+      position: fixed;
+      top: 100px;
+      right: 50px;
+      color: blue;
+    }
+  </style>
+</head>
+<body>
+  <div id="myDiv">This is a DIV element</div>
+  <p class="firstParagraph">First paragraph</p>
+  <p class="secondParagraph">Second paragraph</p>
+</body>
+</html>

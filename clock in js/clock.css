@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 100px;
+    font-size: 48px;
+    background-color: #d3d1d1;
+  }
+  
+  #clock {
+    display: inline-block;
+    background-color: #8b8a8a;
+    color: #000000;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow:  0 0 10px  #83707fd3;
+  }
+  
+  #clock span {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  
+  #clock .separator {
+    color: #666;
+  }
+  h1{
+      align-content: center;
+      font-family:cursive;
+      margin-bottom:33px;
+      padding:0;
+  }

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login form</title>
+    <script >
+        function validate(){
+
+var fname=document.getElementById("fname").value;
+var lname=document.getElementById("lname").value;
+var email=document.getElementById("email").value;
+var phone=document.getElementById("phone").value;
+      
+
+if(fname.length<3 || !isNaN(fname)){
+    alert("firstname should be alteast 3 characters long or it should be astring");
+return false;
+}
+
+if(lname.length<2 ||  !isNaN(lname)){
+    alert("lastname should be alteast 2 characters long");
+return false;
+}
+
+if(!/^\S+@\S+\.\S+$/.test(email)){
+alert("enter a valid email");
+
+return false;
+}
+if(!/^\d{3}-\d{3}-\d{4}$/.test(phone)){
+alert("Phone number is invalid. Please enter in the format ###-###-####.");
+return false;
+}
+
+return true;
+
+}
+    </script>
+</head>
+<body>
+    <form onsubmit="return validate()">
+        <label for="fname">first name</label>
+        <input type="text" name="fname" id="fname" required><br>
+        <label for="lname">Last name</label>
+        <input type="text" name="lname" id="lname" required><br>
+        <label for="email">email</label>
+        <input type="text" name="email" id="email" required><br>
+        <label for="phone">phone number</label>
+        <input type="text" name="phone" id="phone" required><br>
+        <input type="submit" value="submit"  >
+    </form>
+</body>
+</html>
